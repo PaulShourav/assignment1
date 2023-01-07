@@ -17,17 +17,18 @@ main {
 .banner{
     background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
+    
 }
 .banner-text{
     text-align: right;
-    padding: 216px 225px 364px 845px; 
+    padding: 216px 225px 364px 830px; 
 
 }
 
 .banner-title{
     color: #151414;
     font-weight:bolder;
-    font-size: 45px;
+    font-size: 40px;
     
 }
 .banner-description{
@@ -49,16 +50,17 @@ main {
     align-items: center;
 }
 .my-features-text{
-    width: 423px;
-    margin-left: 80px;
+    width: 450px;
+    margin-left: 50px;
 }
 .my-features-title{
-    font-weight: bolder;
+    font-weight: bold;
     color: #151414;
     font-size: 40px;
 }
 .my-features-description {
     font-size: 16px;
+    font-weight: normal;
     margin: 16px 0;
     color: #444343;
 }
@@ -67,6 +69,7 @@ main {
 }
 .my-features-text ul li{
     list-style: none;
+    font-size: 16px;
     margin-bottom: 8px;
     
 }
@@ -125,7 +128,8 @@ footer{
 }
 .future-title{
     font-size: 40px;
-    font-weight: bolder;   
+    font-weight: bolder;
+    
     
 }
 .future-description{
@@ -144,14 +148,13 @@ footer{
 .subscribe-title{
     font-size: 25px;
     font-weight: bolder;
-    
 }
 .input-email{
     width: 325px;
     height: 64px;
     border: 1px solid white;
     border-radius: 5px;
-    margin: 30px 0 32px 0;
+    margin: 16px 0 32px 0;
     background-color: #151414;
     font-size: 16px;
     color: white;
