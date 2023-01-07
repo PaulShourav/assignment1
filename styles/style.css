@@ -1,0 +1,159 @@
+*{
+  margin: 0;  
+  font-family: 'Work Sans', sans-serif;
+}
+main {
+    margin: 0 230px;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F15B22;
+    padding: 20px 36px;
+    border: 0;
+    border-radius: 5px;
+   
+}
+.banner{
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+}
+.banner-text{
+    text-align: right;
+    padding: 216px 225px 364px 845px; 
+
+}
+
+.banner-title{
+    color: #151414;
+    font-weight:bolder;
+    font-size: 45px;
+    
+}
+.banner-description{
+    color: #444343;
+    font-size: 16px;
+    margin:24px 0 32px 0;
+}
+.btn-contact{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px 26px;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+.my-features{
+    display: flex;
+    align-items: center;
+}
+.my-features-text{
+    width: 423px;
+    margin-left: 80px;
+}
+.my-features-title{
+    font-weight: bolder;
+    color: #151414;
+    font-size: 40px;
+}
+.my-features-description {
+    font-size: 16px;
+    margin: 16px 0;
+    color: #444343;
+}
+.my-features-text ul{
+    padding: 0;
+}
+.my-features-text ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    
+}
+.my-features-text ul li i{
+    margin-right: 10px;
+    color: darkturquoise;
+    
+}
+.my-plan{
+    margin:159px 0;
+}
+.my-plan-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin:159px 0 55px 0;
+}
+.my-plan-details{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.my-plan-title{
+    font-size: 25px;
+    font-weight: bolder;
+    margin:16px 0;
+}
+.my-plan-text{
+ color: #737272;
+ font-size: 16px;
+}
+.always-keep{
+    background-image: url('../images/gradient2.png'),url("../images/watch.png");
+    margin-bottom: 159px;
+}
+.always-keep-details{
+    width: 459px;
+    padding:59px 0 59px 64px;
+}
+.always-keep-heading{
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-bottom: 24px;
+}
+footer{
+    padding: 199px 230px;
+    background-color: #151414;
+    display: flex;
+    color: #FFFFFF;
+}
+.future{
+    width: 485px;
+    
+}
+.future-title{
+    font-size: 40px;
+    font-weight: bolder;   
+    
+}
+.future-description{
+    font-size: 16px;
+    padding: 16px 0 24px 0;
+}
+.future-li{
+    padding: 16px 0;
+}
+.social-icon{
+    padding-top: 32px;
+}
+.subscribe{
+    margin-left: 331px;
+}
+.subscribe-title{
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+.input-email{
+    width: 325px;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 30px 0 32px 0;
+    background-color: #151414;
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
