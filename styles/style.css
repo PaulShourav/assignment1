@@ -14,6 +14,16 @@ main {
     border-radius: 5px;
    
 }
+.btn-read{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 8px 12px;
+    border: 1 solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+}
 .banner{
     background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
@@ -78,27 +88,27 @@ main {
     color: darkturquoise;
     
 }
-.my-plan{
+.card{
     margin:159px 0;
 }
-.my-plan-heading{
+.card-heading{
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
     margin:159px 0 55px 0;
 }
-.my-plan-details{
+.card-details{
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.my-plan-title{
+.card-title{
     font-size: 25px;
     font-weight: bolder;
     margin:16px 0;
 }
-.my-plan-text{
+.card-text{
  color: #737272;
  font-size: 16px;
 }
